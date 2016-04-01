@@ -1,10 +1,10 @@
-Package: ccfd_knit
+Package: ccfdinstr
 Type: Package
 Title: R Markdown formats for CCFD lab instructions
 Version: 0.1
 Date: 2016-01-02
 Authors@R: c(
-  person("Laniewski-Wollk", "Lukasz", role = c("aut"), email = "llaniewski@meil.pw.edu.pl")
+  person("Laniewski-Wollk", "Lukasz", role = c("aut","cre"), email = "llaniewski@meil.pw.edu.pl")
   )
 Description: A suite of custom R Markdown formats and templates for
   authoring lab instructions
