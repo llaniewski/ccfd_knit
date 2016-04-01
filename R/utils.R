@@ -1,6 +1,6 @@
 find_file <- function(template, file) {
   template <- system.file("rmarkdown", "templates", template, file,
-                          package = "rticles")
+                          package = "ccfdinstr")
   if (template == "") {
     stop("Couldn't find template file ", template, "/", file, call. = FALSE)
   }
@@ -25,9 +25,9 @@ output_asis <- knitr_fun('output_asis')
 #' @param output Path to save output.
 #' @return (Invisibly) The path of the generate file.
 #' @examples
-#' x <- rticles:::template_pandoc(
+#' x <- ccfdinstr:::template_pandoc(
 #'   list(preamble = "%abc", filename = "wickham"),
-#'   rticles:::find_resource("rjournal_article", "RJwrapper.tex"),
+#'   ccfdinstr:::find_resource("rjournal_article", "RJwrapper.tex"),
 #'   tempfile()
 #' )
 #' if (interactive()) file.show(x)
