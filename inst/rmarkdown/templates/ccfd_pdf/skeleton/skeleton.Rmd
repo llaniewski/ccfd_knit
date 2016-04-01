@@ -1,5 +1,5 @@
 ---
-title: Short Paper
+title: Work Hard
 author:
   - name: Alice Anonymous
     email: alice@example.com
@@ -18,8 +18,7 @@ abstract: |
 
   It consists of two paragraphs.
 
-bibliography: mybibfile.bib
-output: rticles::elsevier_article
+output: ccfdinstr::ccfd_pdf
 ---
 
 _Text based on elsarticle sample manuscript, see [http://www.elsevier.com/author-schemas/latex-instructions#elsarticle](http://www.elsevier.com/author-schemas/latex-instructions#elsarticle)_
