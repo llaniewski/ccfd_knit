@@ -1,3 +1,6 @@
+## --------  Copied from rticles ------------
+## github.com/rstudio/rticles
+
 find_file <- function(template, file) {
   template <- system.file("rmarkdown", "templates", template, file,
                           package = "ccfdinstr")
