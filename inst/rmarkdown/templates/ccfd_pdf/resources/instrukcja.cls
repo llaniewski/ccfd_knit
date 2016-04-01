@@ -82,9 +82,23 @@
 \newcommand{\show@materialnumber}{\@materialnumber}
 
 \fancyhead{}
-\rhead{\begin{tabular}{r} Creative Commons License:\\ Attribution Share Alike\end{tabular}\raisebox{-0.3\height}{\includegraphics[height=0.7cm]{cc_cc_30}\includegraphics[height=0.7cm]{cc_by_30}\includegraphics[height=0.7cm]{cc_sa_30}}}
+\rhead{%
+\begin{tabular}{r}%
+Creative Commons License:\\%
+Attribution Share Alike%
+\end{tabular}%
+\raisebox{-0.3\height}{%
+\includegraphics[height=0.7cm]{cc_cc_30}\hspace{0.1cm}%
+\includegraphics[height=0.7cm]{cc_by_30}\hspace{0.1cm}%
+\includegraphics[height=0.7cm]{cc_sa_30}\hspace{0.05cm}%
+}%
+}
 \chead{\LARGE\sc \@courseShort: \@materialShort}
-\lhead{\show@authors}
+\lhead{\raisebox{-0.3\height}{%
+\includegraphics[height=0.7cm]{ccfd}\hspace{0.1cm}%
+\includegraphics[height=0.7cm]{znak_pw}%
+}%
+\show@authors}
 \rfoot{\thepage}
 \cfoot{}
 \lfoot{\it Wydzia\l{} Mechaniczny Energetyki i Lotnictwa, Politechnika Warszawska}
