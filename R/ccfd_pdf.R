@@ -20,6 +20,7 @@
 ccfd_pdf <- function(...,
                              keep_tex = TRUE,
                              md_extensions = c("-autolink_bare_uris")) {
+  Sys.setenv(TEXINPUTS=system.file("rmarkdown","templates","ccfd_pdf","resources", package="ccfdinstr"))
   inherit_pdf_document(...,
                        template = find_resource("ccfd_pdf", "template.tex"),
                        keep_tex = keep_tex,
