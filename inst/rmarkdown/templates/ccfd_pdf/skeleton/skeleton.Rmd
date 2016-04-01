@@ -1,30 +1,12 @@
 ---
 title: Work Hard
 author:
-  - name: Alice Anonymous
-    email: alice@example.com
-    affiliation: Some Institute of Technology
-    footnote: Corresponding Author
-  - name: Bob Security
-    email: bob@example.com
-    affiliation: Another University
-address:
-  - code: Some Institute of Technology
-    address: Department, Street, City, State, Zip
-  - code: Another University
-    address: Department, Street, City, State, Zip
-abstract: |
-  This is the abstract.
-
-  It consists of two paragraphs.
+  - name: Hendry Dendry
 
 output: ccfdinstr::ccfd_pdf
 ---
 
-_Text based on elsarticle sample manuscript, see [http://www.elsevier.com/author-schemas/latex-instructions#elsarticle](http://www.elsevier.com/author-schemas/latex-instructions#elsarticle)_
-
-
-The Elsevier article class
+Section name
 ==========================
 
 #### Installation
