@@ -1,0 +1,16 @@
+Package: ccfd_knit
+Type: Package
+Title: R Markdown formats for CCFD lab instructions
+Version: 0.1
+Date: 2016-01-02
+Authors@R: c(
+  person("Laniewski-Wollk", "Lukasz", role = c("aut"), email = "llaniewski@meil.pw.edu.pl")
+  )
+Description: A suite of custom R Markdown formats and templates for
+  authoring lab instructions
+License: GPL-3
+Imports: utils, rmarkdown, knitr, yaml
+SystemRequirements: GNU make
+RoxygenNote: 5.0.1
+Suggests: testthat
+
