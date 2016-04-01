@@ -22,7 +22,7 @@ test_format <- function(name, file_check = TRUE, os_skip = NULL) {
     testdoc <- "testdoc.Rmd"
     rmarkdown::draft(testdoc,
                      system.file("rmarkdown", "templates", name,
-                                 package = "rticles"),
+                                 package = "ccfdinstr"),
                      create_dir = FALSE,
                      edit = FALSE)
 
